@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="editTextWidth">340dp</dimen>
+    <dimen name="editTextHeight">50dp</dimen>
+    <dimen name="textViewWidth">340dp</dimen>
+    <dimen name="textViewHeight">50dp</dimen>
+    <dimen name="editTextFontSize">34sp</dimen>
+    <dimen name="textViewFontSize">34sp</dimen>
+    <dimen name="editTextPadding">10dp</dimen>
+    <dimen name="marginSize">10dp</dimen>
+</resources>

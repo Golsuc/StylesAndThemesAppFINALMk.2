@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_start"
+    tools:context=".SecondActivity">
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="144dp"
+        android:layout_height="55dp"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.954" />
+
+    <LinearLayout
+        android:layout_width="374dp"
+        android:layout_height="660dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.572">
+
+        <TextView
+            android:id="@+id/firstName"
+            android:layout_width="@dimen/textViewWidth"
+            android:layout_height="@dimen/textViewHeight"
+            android:text="First Name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textViewFontSize" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/firstNameInput"
+            android:layout_width="@dimen/editTextWidth"
+            android:layout_height="@dimen/editTextHeight"
+            android:background="@color/transparent"
+            android:hint="Walter"
+            android:padding="@dimen/editTextPadding"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/lastName"
+            android:layout_width="@dimen/textViewWidth"
+            android:layout_height="@dimen/textViewHeight"
+            android:text="Last Name"
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/firstNameInput2"
+            android:layout_width="@dimen/editTextWidth"
+            android:layout_height="@dimen/editTextHeight"
+            android:background="@color/transparent"
+            android:hint="White"
+            android:padding="@dimen/editTextPadding"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="@dimen/textViewWidth"
+            android:layout_height="@dimen/textViewHeight"
+            android:text="Email"
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/firstNameInput3"
+            android:layout_width="@dimen/editTextWidth"
+            android:layout_height="@dimen/editTextHeight"
+            android:background="@color/transparent"
+            android:hint="test123@gmail.com"
+            android:padding="@dimen/editTextPadding"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="@dimen/textViewWidth"
+            android:layout_height="@dimen/textViewHeight"
+            android:text="Username"
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/firstNameInput4"
+            android:layout_width="@dimen/editTextWidth"
+            android:layout_height="@dimen/editTextHeight"
+            android:background="@color/transparent"
+            android:hint="WhityTighty33"
+            android:padding="@dimen/editTextPadding"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/password"
+            android:layout_width="@dimen/textViewWidth"
+            android:layout_height="@dimen/textViewHeight"
+            android:text="Password"
+            android:textColor="@color/black"
+            android:textSize="34sp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/firstNameInput5"
+            android:layout_width="@dimen/editTextWidth"
+            android:layout_height="@dimen/editTextHeight"
+            android:background="@color/transparent"
+            android:hint="MyDogAteMyHomeWord32!"
+            android:padding="@dimen/editTextPadding"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
